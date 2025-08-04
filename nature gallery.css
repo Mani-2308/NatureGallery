@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+/* This will be covered in further sessions */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    margin: 0px;
+}
+
+.nature-gallery-bg-container {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/nature-gallery-bg.png");
+    background-size: cover;
+    height: 100vh;
+    padding: 50px;
+    max-height: 500px;
+}
+
+.nature-gallery-heading {
+    padding: 10px;
+    color: #323f4b;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.nature-gallery-card-container {
+    background-color: #ffffff;
+    max-width: 800px;
+    max-height: 300px;
+    padding: 15px;
+    overflow-x: auto;
+}
+
+.images-container {
+    width: 700px;
+}
+
+.nature-gallery-images {
+    border-radius: 10px;
+    width: 160px;
+    height: 200px;
+    margin-right: 10px;
+}
